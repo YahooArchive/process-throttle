@@ -1,22 +1,22 @@
 {
-  "name": "throttle",
+  "name": "process-throttle",
   "description": "monitors total requests served and memory used and kills itself if reached limits",
   "version": "0.0.1",
   "author": "Rohini Harendra <rohini.raghav@gmail.com>",
   "repository": {
       "type": "git",
-      "url": "https://github.com/yahoo/throttle.git"
+      "url": "https://github.com/yahoo/process-throttle.git"
   },
   "bugs": {
-      "url" : "http://github.com/yahoo/throttle/issues"
+      "url" : "http://github.com/yahoo/process-throttle/issues"
   },
   "keywords": [
-    "throttles", "yahoo"
+    "throttle", "yahoo"
   ],
   "licenses":[
         {
             "type" : "BSD",
-            "url" : "https://github.com/yahoo/throttle/blob/master/LICENSE"
+            "url" : "https://github.com/yahoo/process-throttle/blob/master/LICENSE"
         }
     ],
   "engines": { "node": ">=0.6" },
