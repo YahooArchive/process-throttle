@@ -1,0 +1,38 @@
+{
+  "name": "throttle",
+  "description": "monitors total requests served and memory used and kills itself if reached limits",
+  "version": "0.0.1",
+  "author": "Rohini Harendra <rohini.raghav@gmail.com>",
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/yahoo/throttle.git"
+  },
+  "bugs": {
+      "url" : "http://github.com/yahoo/throttle/issues"
+  },
+  "keywords": [
+    "throttles", "yahoo"
+  ],
+  "licenses":[
+        {
+            "type" : "BSD",
+            "url" : "https://github.com/yahoo/throttle/blob/master/LICENSE"
+        }
+    ],
+  "engines": { "node": ">=0.6" },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "jshint": "~0.9.0",
+    "yui-lint": "~0.1.1",
+    "istanbul": "~0.1.8",
+    "vows": "*",
+    "mockery" : "*"
+  },
+  "main": "./lib/throttle.js",
+  "scripts": {
+      "pretest": "jshint --config ./node_modules/yui-lint/jshint.json ./lib/",
+      "test": "istanbul cover --print both vows -- --spec ./tests/*.js"
+  }
+}
+
