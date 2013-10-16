@@ -50,3 +50,11 @@ myThrottler.addServer(server);
 >> I have served 2 requests so far. My limit is 2
 >> Server received exit command, shutting down
 ```
+
+# Build Status
+
+[![Build Status](https://secure.travis-ci.org/yahoo/process-throttle.png?branch=master)](http://travis-ci.org/yahoo/process-throttle)
+
+# Node Badge
+
+[![NPM](https://nodei.co/npm/process-throttle.png)](https://nodei.co/npm/process-throttle/)
