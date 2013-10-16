@@ -13,7 +13,7 @@ This package is tested only with Node versions 8 and 10.
 With [npm](http://npmjs.org) do:
 
 ```
-npm install throttle
+npm install process-throttle
 ```
 
 # usage
